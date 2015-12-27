@@ -72,9 +72,9 @@ main (int argc,char *argv[]) {
 				}
 
 		}
-		
-		if(fclose(fpstart) != 0 || fclose(fpend) != 0 || fclose(fpout) != 0) 
-			fprintf(stderr,"Error in closing file.\n");
+		//close file with trouble,needs to fix
+		//if(fclose(fpstart) != 0 || fclose(fpend) != 0 || fclose(fpout) != 0) 
+		//	fprintf(stderr,"Error in closing file.\n");
 		
 		return 0;
 }
